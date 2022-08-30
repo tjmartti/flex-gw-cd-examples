@@ -78,4 +78,4 @@ spec:
     name: http-basic-authentication-flex
   config:
     username: foo
-    password: bar
+    password: bar2
