@@ -48,7 +48,7 @@ spec:
       volumes:
       - name: config
         secret:
-          secretName: 5979348d-f288-411f-9e67-6b1b7fa36cde      
+          secretName: a3bbd88b-7948-4196-99fc-b254c7ba83f5      
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
