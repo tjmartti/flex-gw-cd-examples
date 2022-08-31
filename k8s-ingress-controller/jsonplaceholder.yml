@@ -53,14 +53,14 @@ spec:
   - http:
       paths:
       - path: /api(/users/.*)
-        pathType: ImplementationSpecific
+        pathType: Prefix
         backend:
           service:
             name: jsonplaceholder
             port:
               number: 80
       - path: /chucknorris(/.*)
-        pathType: ImplementationSpecific
+        pathType: Prefix
         backend:
           service:
             name: chucknorris-flex-gateway-instance
