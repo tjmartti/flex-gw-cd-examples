@@ -59,6 +59,13 @@ spec:
             name: jsonplaceholder
             port:
               number: 80
+      - path: /chucknorris(/.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: chucknorris-flex-gateway-instance
+            port:
+              number: 80
 ---
 apiVersion: gateway.mulesoft.com/v1alpha1
 kind: PolicyBinding
