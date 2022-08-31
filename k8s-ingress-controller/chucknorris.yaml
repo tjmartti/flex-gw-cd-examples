@@ -3,10 +3,7 @@ kind: ApiInstance
 metadata:
   name: chucknorris-flex-gateway-instance
 spec:
-  address: http://0.0.0.0:80
+  address: http://0.0.0.0:80/chucknorris
   services:
     chucknorris:
-      address: https://api.chucknorris.io/jokes/random/
-      routes:
-        - rules:
-            - path: /chucknorris(/.*)
+      address: https://api.chucknorris.io/jokes/random
