@@ -9,4 +9,4 @@ spec:
       address: https://api.chucknorris.io/jokes/random/
       routes:
         - rules:
-            - path: /api/chucknorris(/.*)
+            - path: /chucknorris(/.*)
